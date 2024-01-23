@@ -26,7 +26,7 @@ Jouleverse采取去中心化的协作模式，不存在一个中心化的项目�
 具体工作：
 1. 红包的前端开发，集成在区块链浏览器中。目前由 @yj 在开发中。视情况配合。@Jeff 亦对此有兴趣（优化J红包封面）。
    - [红包合约源代码](https://github.com/Jouleverse/redpacket)
-   - 红包封面（前端）作为区块链浏览器的一部分，目前在区块链浏览器源代码的[redpacket分支(skeleton)](https://github.com/Jouleverse/explorer/tree/redpacket)和[redpacket_dev分支(@yj)](https://github.com/Jouleverse/explorer/tree/redpacket_dev)进行开发中，与此相关的讨论放在[issue#1](https://github.com/Jouleverse/explorer/issues/1)
+   - 红包封面（前端）作为区块链浏览器的一部分，目前在区块链浏览器源代码的[redpacket分支(skeleton)](https://github.com/Jouleverse/explorer/tree/redpacket)和[redpacket_dev分支(@yj)](https://github.com/Jouleverse/explorer/tree/redpacket_dev)进行开发中，与此相关的讨论在[issue#1](https://github.com/Jouleverse/explorer/issues/1)
 3. 链上合约bytecode与源码一致性校验。初步考察发现，市面上并没有可用的开源实现。需研究一个可行的serverless的解决方案。
 4. 合约工具加入calldata提取以及解码功能，方便多签操作之用（比如JNS铸造发放工作）。
 
